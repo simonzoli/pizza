@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="pizza.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Olasz pizzéria</title>
 </head>
 <body>
     <div class="container bg-white p-0">
@@ -33,51 +37,51 @@
 
           <!--Pizza kínálat-->
 
-          <h2 class="my-4">Kínálatunk</h2>
+          <h2 class="my-4 text-center" id="kinalat">Kínálatunk</h2>
 
-          <div class="px-3">
-            <div class="p-4 text-center">
+          <div class="px-3 row">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/margherita.jpg" class="img-thumbnail">
                 <p>Margherita</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/sonkas.jpg" class="img-thumbnail">
                 <p>Sonkás</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/songoku.jpg" class="img-thumbnail">
                 <p>Songoku</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/hawaii.jpg" class="img-thumbnail">
                 <p>Hawaii</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/szalamis.jpg" class="img-thumbnail">
                 <p>Szalámis</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/tonhalas.jpg" class="img-thumbnail">
                 <p>Tonhalas</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/bolognai.jpg" class="img-thumbnail">
                 <p>Bolognai</p>
             </div>
-            <div class="p-4 text-center">
+            <div class="p-4 text-center col-xl-4 col-md-6 col-sm-12">
                 <img src="pizzak/kalifornia.jpg" class="img-thumbnail">
                 <p>Kalifornia</p>
             </div>
         </div>
 
         <!--Ajánlat-->
-        <section class="p-5 my-4">
-            Minden nap 14:00 és 16:00 között egyedülálló akció! Ha két pizzát rendelsz, ajándékba küldünk egy másfél literes Coca Cola-t! 
+        <section class="p-5 my-4 w-50 text-white font-weight-bold bg-info" id="ajanlat">
+            Minden nap 14:00 és 16:00 között egyedülálló akció! <br>Ha két pizzát rendelsz, ajándékba küldünk egy másfél literes Coca Cola-t! 
         </section>
 
         <!--Lábléc-->     
         <footer class="bg-secondary p-3 text-center text-white">
-            <p>Képek forrása: Nana pizza</p>
+            <p>Képek forrása: <a href="https://nanapizza.hu" target="blank">Nana pizza</a></p>
         </footer>
 
     </div>

@@ -1,4 +1,19 @@
 #ajanlat {
     text-align: center;
     border-radius: 20px;
+    margin: auto;
+}
+body{
+    background-image: url(hatter.jpg);
+    background-attachment: fixed;
+}
+#kinalat{
+    border-bottom: 2px dotted blue;
+}
+a, a:link, a:hover, a:visited, a:active{
+    color: yellow;
+    text-decoration: none;
+}
+a,:hover{
+    text-decoration: underline;
 }
